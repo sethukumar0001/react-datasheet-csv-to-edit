@@ -31,6 +31,7 @@ class DataController extends React.Component {
       });
     });
   }
+  // 
 
   getData(result) {
     // here we have data, condensedData (first 10 rows), and currently displaying Data
