@@ -43,7 +43,7 @@ class DataController extends React.Component {
 
   async getCsvData() {
     let csvData = await this.fetchCsv();
-
+console.log(csvData)
     Papa.parse(csvData, {
       complete: this.getData
     });
